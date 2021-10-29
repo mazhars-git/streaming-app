@@ -7,9 +7,12 @@ import Series from './Series';
 const AllSeries = () => {
     const [infos, setInfos] = useState([]);
     const seriesData = fakeData.entries.filter(s => s.releaseYear >= 2010 && s.programType == 'series');
+    const items = 21;
+    const mySeries = seriesData.slice(0, items);
+
 
     useEffect(() => {
-        setInfos(seriesData);
+        setInfos(mySeries);
     },[])
 
     return (

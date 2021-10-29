@@ -7,9 +7,11 @@ import Movie from './Movie';
 const Movies = () => {
     const [state, setState] =useState([]);
     const moviesData = fakeData.entries.filter(m => m.releaseYear >= 2010 && m.programType == 'movie');
+    const items = 21;
+    const myMovies = moviesData.slice(0, items);
 
     useEffect(() => {
-        setState(moviesData);
+        setState(myMovies);
     }, [])
    
     console.log(state);
