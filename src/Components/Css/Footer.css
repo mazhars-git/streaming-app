@@ -1,0 +1,30 @@
+.footer-area{
+    background-color: #1e1e1e;
+    padding: 20px 0;
+}
+.footer ul{
+    margin: 0;
+    padding: 0;
+}
+
+.footer ul li{
+    list-style: none;
+    margin-right: 8px;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: #99a5aa;
+}
+.footer p{
+    color: #99a5aa;
+    margin: 10px 0;
+}
+
+.social-icon{
+    font-size: 30px;
+}
+.social-icon li a{
+    margin-right: 12px;
+    color: #fff !important;
+}

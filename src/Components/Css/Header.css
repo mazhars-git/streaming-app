@@ -1,0 +1,19 @@
+.content{
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.title{
+    position: absolute;
+    background: rgba(2, 2, 2, 0.658);
+    top: 0;
+    padding-top: 22%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.header{
+    font-weight: bold;
+    min-height: 65vh;
+}
