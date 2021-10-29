@@ -30,8 +30,8 @@ const Footer = () => {
                     </div>
                     <div className="col-md-6"> 
                         <ul className="d-flex justify-content-end ml-2">
-                            <li><a href="#"><img style={{width: '90px'}} src={apple} alt="" /></a></li>
-                            <li><a href="#"><img style={{width: '95px'}} src={google} alt="" /></a></li>
+                            <li><a href="#"><img style={{width: '90px', border: '1px solid #fff', borderRadius: '5px'}} src={apple} alt="" /></a></li>
+                            <li><a href="#"><img style={{width: '95px', border: '1px solid #fff', borderRadius: '5px'}} src={google} alt="" /></a></li>
                             <li><a href="#"><img style={{width: '80px'}} src={microsoft} alt="" /></a></li>
                         </ul>
                     </div>
