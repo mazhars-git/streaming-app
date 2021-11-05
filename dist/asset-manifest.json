@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.834df12e.chunk.css",
+    "main.js": "/static/js/main.26a71b5f.chunk.js",
+    "main.js.map": "/static/js/main.26a71b5f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.409d20c8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.409d20c8.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.76b23f71.chunk.js": "/static/js/2.76b23f71.chunk.js",
+    "static/js/2.76b23f71.chunk.js.map": "/static/js/2.76b23f71.chunk.js.map",
+    "static/js/3.127511f8.chunk.js": "/static/js/3.127511f8.chunk.js",
+    "static/js/3.127511f8.chunk.js.map": "/static/js/3.127511f8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.834df12e.chunk.css.map": "/static/css/main.834df12e.chunk.css.map",
+    "static/js/2.76b23f71.chunk.js.LICENSE.txt": "/static/js/2.76b23f71.chunk.js.LICENSE.txt",
+    "static/media/Google.e997eef9.png": "/static/media/Google.e997eef9.png",
+    "static/media/apple.5420997c.png": "/static/media/apple.5420997c.png",
+    "static/media/video.bd9587dc.png": "/static/media/video.bd9587dc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.409d20c8.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.76b23f71.chunk.js",
+    "static/css/main.834df12e.chunk.css",
+    "static/js/main.26a71b5f.chunk.js"
+  ]
+}

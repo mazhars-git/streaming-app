@@ -19,4 +19,6 @@ https://github.com/mazhars-git/streaming-app
 
 # The live link: 
 
+https://frosty-albattani-a030ce.netlify.app/
+
 
