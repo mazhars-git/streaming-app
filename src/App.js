@@ -9,6 +9,8 @@ import {
 import Home from './Components/Home/Home';
 import Movies from "./Components/Movies/Movies";
 import AllSeries from "./Components/Series/AllSeries";
+import LodingError from "./Components/LoadingError/LoadingError";
+import LoadingError from "./Components/LoadingError/LoadingError";
 
 function App() {
   return (
@@ -23,8 +25,8 @@ function App() {
           <Route path="/series">
               <AllSeries />
           </Route>
-          <Route path="/">
-           
+          <Route path="*">
+              <LoadingError />
           </Route>
         </Switch>
     </Router>

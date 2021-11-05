@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Spinner } from 'react-bootstrap';
 import fakeData from '../FakeData/FakeData';
 import Footer from '../Footer/Footer';
 import MainMenu from '../MainMenu/MainMenu';
@@ -19,7 +20,13 @@ const Movies = () => {
         <section>
             <MainMenu />
             <div className="container py-5">
-                <div className="row">
+                <div className="row" style={{minHeight: '70vh'}}>
+                {
+                    state.length === 0 && 
+                    <Spinner>
+                        <h2 >Loading...</h2>
+                    </Spinner>
+                }
                     {
                         state.map(data => <Movie movie={data}></Movie>)
                     }  

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Spinner } from 'react-bootstrap';
 import fakeData from '../FakeData/FakeData.json';
 import Footer from '../Footer/Footer';
 import MainMenu from '../MainMenu/MainMenu';
@@ -18,8 +19,15 @@ const AllSeries = () => {
     return (
         <section>
         <MainMenu />
+        
         <div className="container py-5">
-            <div className="row">
+            <div className="row" style={{minHeight: '70vh'}}>
+                {
+                    infos.length === 0 && 
+                    <Spinner>
+                        <h2 >Loading...</h2>
+                    </Spinner>
+                }
                 {
                     infos.map(data => <Series sInfo={data}></Series>)
                 }  

@@ -6,6 +6,7 @@ import '../Css/Header.css';
 const Header = () => {
     return (
         <section className="header">
+            <h2 style={{paddingLeft: "15px", background: 'gray', color: 'white'}}>Popular Titles</h2>
             <div className="container py-5">
                 <div className="row">
                     <div className="col-md-3 text-center">
